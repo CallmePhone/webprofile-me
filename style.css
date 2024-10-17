@@ -1,0 +1,225 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+
+    h1 {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 4s steps(35, end) infinite;
+        border-right: 2px solid rgb(133, 68, 66);
+    }
+
+    h1 a {
+        font-size: 26px;
+        color: rgb(133, 68, 66);
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .con-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .con-menu ul {
+        list-style: none;
+        display: inline-flex;
+        padding: 12px 0;
+    }
+
+    .con-menu li {
+        margin: 0 4px;
+    }
+
+    .con-menu a:hover {
+        color: rgb(190, 155, 123);
+    }
+
+    .fa-user {
+        margin: 0 5px;
+    }
+}
+
+.content-about {
+    /* display: block; */
+    margin: 0 5rem;
+
+    h1 a {
+        display: flexbox;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    h1 a {
+        margin-left: 50rem;
+        color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+        padding: 2px;
+        transition: 0.5s ease-in-out;
+    }
+
+    a:hover {
+        background-color: #000;
+        color: aliceblue;
+        transition: 0.5s ease-in-out;
+    }
+
+    p {
+        margin: 10px 0;
+        padding-left: 50rem;
+        text-align: start;
+    }
+
+    .img-profile {
+        position: relative;
+        margin-left: 5rem;
+        margin-top: -11rem;
+        transition: transform 0.3s;
+        /* เพิ่มการเปลี่ยนแปลง */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .img-profile:hover {
+        transform: scale(1.05);
+        /* ขยายเมื่อเลื่อนเมาส์ */
+    }
+
+    .div-logo {
+        display: inline-flex;
+        margin-top: 18px;
+        margin-left: 6.5rem;
+        font-size: 30px;
+        background-color: rgb(255, 244, 230);
+        border-radius: 10px;
+        padding: 3px 0;
+    }
+
+    .div-logo i {
+        margin: 0 10px;
+    }
+
+    .div-logo a {
+        text-decoration: none;
+        color: inherit;
+        transition: .25s ease-in-out;
+    }
+
+    .div-logo a:hover {
+        color: #000;
+        background-color: rgb(255, 255, 255);
+        transform: scale(1.2);
+        border-radius: 10px;
+    }
+
+    li {
+        display: block;
+        font-size: 26px;
+        font-weight: bold;
+        list-style: none;
+        margin-top: 20px;
+        margin-left: 50rem;
+
+        a {
+            text-decoration: none;
+            color: rgb(60, 47, 47);
+            transition: .5s ease-in-out;
+        }
+
+        a:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(190, 155, 123);
+        }
+
+        i {
+            margin-left: .5rem;
+        }
+    }
+}
+
+.skill-con {
+    margin: 1rem 5rem;
+
+    h1 a {
+        font-size: 20px;
+        text-decoration: none;
+        color: #000;
+        margin-left: 2.5rem;
+    }
+
+    .html-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .css-img {
+        margin-bottom: 23px;
+        width: 80px;
+        height: 100px;
+    }
+
+    a {
+        color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+        padding: 2px;
+        transition: 0.5s ease-in-out;
+    }
+
+    a:hover {
+        background-color: #000;
+        color: aliceblue;
+        transition: 0.5s ease-in-out;
+    }
+
+}
+
+.fa-arrow-left {
+    margin-left: 0.5rem;
+}
+
+.content-project {
+    margin: 1rem 5rem;
+    display: block;
+
+
+    h1 a {
+        font-size: 20px;
+        margin-left: 50rem;
+        border: 2px solid #000;
+        padding: 2px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    a:hover {
+        background-color: #000;
+        color: aliceblue;
+        transition: 0.5s ease-in-out;
+    }
+
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
